@@ -15,7 +15,7 @@ Today, movies are basically the most popular type of art and entertainment for u
 - Do the features in subtitles affect the quality of a movie?
   - For example, different genres of movies may have different pace and different keywords in their lines. We can get new information from the movie subtitles.
 - What are the factors and features that affect the ratings and sales of movies?
-  - This is the final question we would like to answer. Our answer may help movie makers make a hit movie. We can even build a movie recommender system from the results.
+  - This is the final question we would like to answer. Our answer may help movie makers make a hit movie.
 
 
 
