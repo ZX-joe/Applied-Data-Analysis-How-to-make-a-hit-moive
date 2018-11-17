@@ -1,7 +1,7 @@
 # How to Make a Hit Movie
 
 ## Abstract
-Today, movies are basically the most popular type of art and entertainment for us. People go to the cinema to watch a movie or buy it on Amazon, and give reviews and ratings on it. But for movie makers, movies are a type of business. Some blockbusters like "Avater" have earned billions of dollars, while a lot of other movies are not as lucky as the highest-grossing ones. So we may wonder how to make a hit movie. We will try to use data analysis to answer this question. From the matadata, reviews, ratings and even subtitles of movies, we would like to find factors and features that make a movie to become best seller on Amazon or take high revenues from the box office.  
+Today, movies are basically the most popular type of art and entertainment for us. People go to the cinema to watch a movie or buy it on Amazon, and give reviews and ratings on it. But for movie makers, movies are a type of business. Some blockbusters like "Avatar" have earned billions of dollars, while a lot of other movies are not as lucky as the highest-grossing ones. So we may wonder how to make a hit movie. We will try to use data analysis to answer this question. From the matadata, reviews, ratings and even subtitles of movies, we would like to find factors and features that make a movie to become best seller on Amazon or take high revenues from the box office.  
 
 ## Research questions
 - What is the trend and evolution of movie ratings according to Amazon?
@@ -12,7 +12,7 @@ Today, movies are basically the most popular type of art and entertainment for u
   - People's ratings for the movies and the movie products(e.g. DVDs, online video streams) may be different.
 - Do good reviews and ratings lead to high revenues?
   - High revenues may not always mean good reputation. Is there a star effect of actors and directors that affects the revenues? Are there other factors?
-- Do the features in subtitles affect the quality of a movie?
+- (Optional) Do the features in subtitles affect the quality of a movie?
   - For example, different genres of movies may have different pace and different keywords in their lines. We can get new information from the movie subtitles.
 - What are the factors and features that affect the ratings and sales of movies?
   - This is the final question we would like to answer. Our answer may help movie makers make a hit movie.
