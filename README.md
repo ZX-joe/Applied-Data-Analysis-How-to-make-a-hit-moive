@@ -28,7 +28,7 @@ For the project, the datasets we analyse are as follows:
 
 
 ## A list of internal milestones up until project milestone 2
-- Collect the three datasets and find the movies that appear in every dataset. Our analysis is based on these common movies.
+- Collect the two datasets and find the movies that appear in every dataset. Our analysis is based on these common movies.
 - Explore the dataset and get some description of the matadata, reviews, and ratings.
 - Do some data cleaning to remove useless and redundant information. Merge and transform the datasets to a better form for further analysis.
 - Design the machine learning methods to predict movie ratings or revenues from given features.
