@@ -37,6 +37,5 @@ For the project, the datasets we analyse are as follows:
 
 - Complete and optimize the machine learning approaches, utilize greedy selection to select features that affect movies profit and correponding Amazon reviews
 - Implement more text data analysis with text processing approaches
-- Analyze the features at higher level with detailed exploration (For example, will the gender of directors or casts make a difference)
+- Analyze the features at higher level with detailed exploration and visualization
 - Finish data report with exlusive analysis and explanantion
-- (Optional) Analyze OpenSubtitle dataset to explore the influence of subtitles to movies
