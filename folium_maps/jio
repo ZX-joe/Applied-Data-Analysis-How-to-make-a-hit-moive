@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<head>    
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+
+    
+
+    <style>#map_81b159afc54c4609afb708c36e3c381e {
+
+        position: relative;
+
+        width: 100.0%;
+
+        height: 100.0%;
+
+        left: 0.0%;
+
+        top: 0.0%;
+
+        }
+
+    </style>
+
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+
+</head>
+
+<body>    
+
+    
+
+    <div class="folium-map" id="map_81b159afc54c4609afb708c36e3c381e" ></div>
+
+</body>
+
+<script>    
+
+    
+
+    
+
+        var bounds = null;
+
+    
+
+
+
+    var map_81b159afc54c4609afb708c36e3c381e = L.map(
+
+        'map_81b159afc54c4609afb708c36e3c381e', {
+
+        center: [0, 0],
+
+        zoom: 2,
+
+        maxBounds: bounds,
+
+        layers: [],
+
+        worldCopyJump: false,
+
+        crs: L.CRS.EPSG3857,
+
+        zoomControl: true,
+
+        });
+
+
+
+    
+
+    
+
+    var tile_layer_20c70c6644f3445cbc01fe23155fe005 = L.tileLayer(
+
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+
+        {
+
+        "attribution": null,
+
+        "detectRetina": false,
+
+        "maxNativeZoom": 18,
+
+        "maxZoom": 18,
+
+        "minZoom": 0,
+
+        "noWrap": false,
+
+        "subdomains": "abc"
+
+}).addTo(map_81b159afc54c4609afb708c36e3c381e);
+
+    
+
+            var heat_map_1fae26e1dd004b529791e533d85e1e17 = L.heatLayer(
+
+                [[33.0, 65.0, 0.0], [-34.0, -64.0, 0.0], [12.5, -69.97, 0.0], [-27.0, 133.0, 3.938671209540034], [50.83, 4.0, 0.0], [44.0, 18.0, 0.0], [-10.0, -55.0, 0.0], [60.0, -95.0, 3.8290155440414506], [35.0, 105.0, 0.0], [4.0, -72.0, 0.0], [49.75, 15.5, 3.1181434599156117], [56.0, 10.0, 2.8], [-2.0, -77.5, 0.0], [64.0, 26.0, 0.0], [46.0, 2.0, 4.095238095238095], [51.0, 9.0, 3.717834960070985], [22.25, 114.17, 3.8424657534246576], [47.0, 20.0, 0.0], [20.0, 77.0, 4.5], [53.0, -8.0, 4.062189054726368], [31.5, 34.75, 0.0], [42.83, 12.83, 3.409090909090909], [18.25, -77.5, 0.0], [36.0, 138.0, 3.933333333333333], [49.75, 6.17, 0.0], [23.0, -102.0, 3.519774011299435], [52.5, 5.75, 3.403409090909091], [-41.0, 174.0, 0.0], [62.0, 10.0, 4.576923076923077], [-10.0, -76.0, 0.0], [52.0, 20.0, 3.142857142857143], [39.5, -8.0, 0.0], [60.0, 100.0, 0.0], [44.0, 21.0, 0.0], [46.0, 15.0, 0.0], [-29.0, 24.0, 0.0], [40.0, -4.0, 4.505263157894737], [62.0, 15.0, 4.0], [47.0, 8.0, 2.1517857142857144], [15.0, 100.0, 0.0], [24.0, 54.0, 0.0], [54.0, -2.0, 4.074606981081801], [38.0, -97.0, 3.918996153141601]],
+
+                {
+
+                    minOpacity: 0.5,
+
+                    maxZoom: 18,
+
+                    max: 1.0,
+
+                    radius: 25,
+
+                    blur: 15,
+
+                    gradient: null
+
+                    })
+
+                .addTo(map_81b159afc54c4609afb708c36e3c381e);
+
+        
+
+</script>
