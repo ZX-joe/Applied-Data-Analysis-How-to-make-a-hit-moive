@@ -4,7 +4,7 @@ Project for [Applied Data Analysis 2018](https://dlab.epfl.ch/teaching/fall2018/
 
 Team members: ZHOU Xiao, LIU Jiafan
 
-**Final Jupyter Notebook**: [how-to-make-a-hit-movie.ipynb](./how-to-make-a-hit-movie.ipynb)
+**Final Jupyter Notebook**: [how-to-make-a-hit-movie.ipynb](http://nbviewer.jupyter.org/github/catJeff/ada-movie-analysis/blob/master/how-to-make-a-hit-movie.ipynb)
 
 **Data Story**: See our [Github Page](https://howtomakeahitmovie.github.io/)
 
