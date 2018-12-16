@@ -48,4 +48,4 @@ For the project, the datasets we analyse are as follows:
 
 ## Contributions of group members
 - LIU Jiafan: Amazon data analysis, numerical analysis, review text processing, website design and corresponding writing in data story
-- ZHOU Xiao: TMDB data analysis, nonnumerical analysis, machine learning models, visualization, corresponding writing in data story
+- ZHOU Xiao: TMDB data analysis, non-numerical analysis, machine learning models, visualization, corresponding writing in data story
