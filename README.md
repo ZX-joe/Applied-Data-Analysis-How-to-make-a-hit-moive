@@ -45,3 +45,7 @@ For the project, the datasets we analyse are as follows:
 - Implement more text data analysis with text processing approaches
 - Analyze the features at higher level with detailed exploration and visualization
 - Finish data story with exclusive analysis and intuitive visualization
+
+## Contributions of group members
+LIU Jiafan: Amazon data analysis, numerical feature analysis, review text processing, website design and corresponding part writing in data story
+ZHOU Xiao: TMDB data analysis, nonnumerical feature analysis, machine learning models, visualization, corresponding part writing in data story
