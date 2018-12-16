@@ -26,7 +26,7 @@ Today, movies are basically the most popular type of art and entertainment for u
 ## Dataset
 For the project, the datasets we analyse are as follows:
 
-- [Amazon reviews dataset](http://jmcauley.ucsd.edu/data/amazon/index.html) contains totally 142.8 million product reviews (ratings, text, votes) and related metadata from Amazon. Among the huge data, we mainly use the 'Movies and TV' part for the inplementation of our ideas.
+- [Amazon reviews dataset](http://jmcauley.ucsd.edu/data/amazon/index.html) contains totally 142.8 million product reviews (ratings, text, votes) and related metadata from Amazon. Among the huge data, we mainly use the 'Movies and TV' part for the implementation of our ideas.
 
 - [TMDB movie dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata) is a dataset we find on Kaggle. It contains metadata on thousands of movies, including the plot, cast, crew, budget, vote, revenues, etc.
 
@@ -41,7 +41,7 @@ For the project, the datasets we analyse are as follows:
 
 ## A list of internal milestones up until project milestone 3
 
-- Complete and optimize the machine learning approaches, utilize greedy selection to select features that affect movies profit and correponding Amazon reviews
+- Complete and optimize the machine learning approaches, utilize greedy selection to select features that affect movies profit and corresponding Amazon reviews
 - Implement more text data analysis with text processing approaches
 - Analyze the features at higher level with detailed exploration and visualization
 - Finish data story with exclusive analysis and intuitive visualization
