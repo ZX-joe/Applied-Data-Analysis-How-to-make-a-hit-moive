@@ -47,5 +47,5 @@ For the project, the datasets we analyse are as follows:
 - Finish data story with exclusive analysis and intuitive visualization
 
 ## Contributions of group members
-LIU Jiafan: Amazon data analysis, numerical feature analysis, review text processing, website design and corresponding writing in data story
-ZHOU Xiao: TMDB data analysis, nonnumerical feature analysis, machine learning models, visualization, corresponding writing in data story
+LIU Jiafan: Amazon data analysis, numerical analysis, review text processing, website design and corresponding writing in data story
+ZHOU Xiao: TMDB data analysis, nonnumerical analysis, machine learning models, visualization, corresponding writing in data story
