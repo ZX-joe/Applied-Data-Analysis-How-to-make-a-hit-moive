@@ -38,4 +38,4 @@ For the project, the datasets we analyse are as follows:
 - Complete and optimize the machine learning approaches, utilize greedy selection to select features that affect movies profit and correponding Amazon reviews
 - Implement more text data analysis with text processing approaches
 - Analyze the features at higher level with detailed exploration and visualization
-- Finish data report with exlusive analysis and intuitive visualization
+- Finish data story with exlusive analysis and intuitive visualization
